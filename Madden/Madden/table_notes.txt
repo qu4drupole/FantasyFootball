@@ -1,0 +1,52 @@
+Should be 23 tables
+
+__Questions__
+- how to handle player scores split across multiple categories?
+
+__Glossary__
+FL = fumble
+FF = Force fumble
+FR = fumble recover
+(def) Yds = yards after interception
+PD = pass deflection
+
+0 -- overall game stats, away team listed first
+
+### Passing
+# Passing  Comp  Att  Yds  TD  Int  FL  QBRat
+1 -- away 
+2 -- home 
+
+### Rushing
+# Rushing  Rush  Yds   Avg  Long  TD  FL
+3 -- away
+4 -- home
+
+### Receiving
+Receiving  Rec  Yds   Avg  Long  TD  Tgt  FL
+5 -- away
+6 -- home
+
+### Defense
+Defense  Solo  Total  Sack  Int  Yds  IntTD  PD  FF  FR
+13 -- away
+14 -- home
+
+### Don't care
+7,8 -- kicking
+9,10 -- returns
+11,12 -- punting
+
+___TO SAVE___
+
+~add weekn, opponent
+QB, player
+Receiving, player
+Rushing, player
+
+Defense, team
+
+team name, week, h/a, points, Total, Sack, Int, FF, PD
+    [passing] Comp, Att, Yds, pass TD,
+    [rushing] Rush, Yds, rush TD, Avg (avg), 
+    [Receiving] Rec, Yds, Avg (avg)

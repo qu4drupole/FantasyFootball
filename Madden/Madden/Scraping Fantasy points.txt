@@ -1,0 +1,7 @@
+Scraping Fantasy points
+
+-If getting 403 errors:
+    https://stackoverflow.com/questions/43590153/http-error-403-forbidden-when-reading-html
+    https://stackoverflow.com/questions/61150272/pandas-pd-read-html-function-gives-me-http-error-403-forbidden
+
+For multiple spiders, https://docs.scrapy.org/en/latest/topics/practices.html
